@@ -1,11 +1,4 @@
 name = "personal-portfolio"
-type = "javascript"
-account_id = ""
-workers_dev = true
-compatibility_date = "2024-12-01"
-
-# 启用 Node.js 兼容性标志
+compatibility_date = "2024-06-01"
 compatibility_flags = ["nodejs_compat"]
-
-[env.production]
-name = "personal-portfolio-prod"
+pages_build_output_dir = ".vercel/output/static"
