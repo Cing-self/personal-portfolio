@@ -1,6 +1,7 @@
 {
-  "name": "personal-portfolio",
+  "name": "ai-portfolio",
   "version": "0.1.0",
+  "description": "一个展示 AI 创意作品的个人作品集网站，包含 AI 艺术生成、视频展示和项目案例",
   "private": true,
   "scripts": {
     "dev": "next dev",
