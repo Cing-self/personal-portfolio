@@ -12,6 +12,9 @@ import { blogPosts } from '@/lib/blog-data'
 import { extractHeadings, addHeadingIds } from '@/lib/extract-headings'
 import { markdownToHtml } from '@/lib/markdown-converter'
 
+// Cloudflare Pages 需要 Edge Runtime
+export const runtime = 'edge'
+
 export default async function BlogPostPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const post = blogPosts[id]
